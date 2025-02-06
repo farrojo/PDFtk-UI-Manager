@@ -44,8 +44,14 @@ class PDFMergerApp:
         self.output_entry.pack(side=tk.LEFT, padx=5)
         self.output_entry.insert(0, "resultado.pdf")
 
+        # Nuevo: Botón para seleccionar carpeta de destino
+        self.folder_button = tk.Button(bottom_frame, text="Seleccionar Carpeta", command=self.select_output_folder)
+        self.folder_button.pack(side=tk.LEFT, padx=5)
+
         self.merge_button = tk.Button(bottom_frame, text="Unir en un solo PDF", command=self.merge_pdfs)
         self.merge_button.pack(side=tk.LEFT, padx=5)
+
+        self.output_folder = "" 
 
     def verify_pdftk(self):
         if check_pdftk_installed():
