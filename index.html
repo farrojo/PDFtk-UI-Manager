@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDFMergerApp 🌍</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 40px; }
+        select { padding: 5px; font-size: 16px; }
+        #content { margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+<h1>PDFMergerApp 🌍</h1>
+
+<label for="language-select">🌐 Choose Language:</label>
+<select id="language-select" onchange="changeLanguage(this.value)">
+    <option value="en">English</option>
+    <option value="es">Español</option>
+    <option value="fr">Français</option>
+    <option value="de">Deutsch</option>
+    <option value="zh">中文</option>
+</select>
+
+<div id="content">
+    <h2>Welcome to PDFMergerApp</h2>
+    <p>Tool to merge PDFs easily.</p>
+    <a href="https://github.com/<tu-usuario>/<tu-repo>/releases/latest/download/PDFMergerApp.exe">Download PDFMergerApp</a>
+</div>
+
+<script>
+    const translations = {
+        en: { title: "Welcome to PDFMergerApp", desc: "Tool to merge PDFs easily." },
+        es: { title: "Bienvenido a PDFMergerApp", desc: "Herramienta para unir PDFs fácilmente." },
+        fr: { title: "Bienvenue sur PDFMergerApp", desc: "Outil pour fusionner des PDFs facilement." },
+        de: { title: "Willkommen bei PDFMergerApp", desc: "Werkzeug zum einfachen Zusammenführen von PDFs." },
+        zh: { title: "欢迎使用 PDFMergerApp", desc: "轻松合并 PDF 文件的工具。" }
+    };
+
+    function changeLanguage(lang) {
+        document.getElementById("content").innerHTML = `
+            <h2>${translations[lang].title}</h2>
+            <p>${translations[lang].desc}</p>
+            <a href="https://github.com/<tu-usuario>/<tu-repo>/releases/latest/download/PDFMergerApp.exe">Download PDFMergerApp</a>
+        `;
+    }
+</script>
+
+</body>
+</html>
