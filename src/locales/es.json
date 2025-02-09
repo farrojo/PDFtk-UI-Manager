@@ -1,0 +1,19 @@
+{
+    "language": "Idioma",
+    "title": "Unir PDFs - GUI para pdftk",
+    "verify_pdftk": "Verificar pdftk",
+    "add_pdfs": "Agregar PDFs",
+    "move_up": "Mover Arriba",
+    "move_down": "Mover Abajo",
+    "duplicate": "Duplicar",
+    "remove": "Eliminar",
+    "clear_list": "Limpiar Lista",
+    "output_name": "Nombre de Salida:",
+    "merge_pdfs": "Unir en un Solo PDF",
+    "select_folder": "Seleccionar Carpeta",
+    "folder_selected": "Carpeta seleccionada: {folder}",
+    "pdftk_installed": "pdftk está instalado.",
+    "pdftk_not_installed": "pdftk no está instalado. ¿Desea descargarlo?",
+    "merge_success": "PDFs unidos en: {output}",
+    "merge_error": "Error al unir PDFs: {error}"
+}
