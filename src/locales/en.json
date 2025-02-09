@@ -1,0 +1,19 @@
+{
+    "language": "Language",
+    "title": "PDF Merger - GUI for pdftk",
+    "verify_pdftk": "Verify pdftk",
+    "add_pdfs": "Add PDFs",
+    "move_up": "Move Up",
+    "move_down": "Move Down",
+    "duplicate": "Duplicate",
+    "remove": "Remove",
+    "clear_list": "Clear List",
+    "output_name": "Output Name:",
+    "merge_pdfs": "Merge into One PDF",
+    "select_folder": "Select Folder",
+    "folder_selected": "Folder selected: {folder}",
+    "pdftk_installed": "pdftk is installed.",
+    "pdftk_not_installed": "pdftk is not installed. Do you want to download it?",
+    "merge_success": "PDFs merged into: {output}",
+    "merge_error": "Error merging PDFs: {error}"
+}
