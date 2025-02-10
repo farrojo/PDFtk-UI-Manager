@@ -1,0 +1,19 @@
+{
+    "language": "Sprache",
+    "title": "PDF Merger - GUI für pdftk",
+    "verify_pdftk": "pdftk überprüfen",
+    "add_pdfs": "PDFs hinzufügen",
+    "move_up": "Nach oben verschieben",
+    "move_down": "Nach unten verschieben",
+    "duplicate": "Duplizieren",
+    "remove": "Entfernen",
+    "clear_list": "Liste löschen",
+    "output_name": "Ausgabename:",
+    "merge_pdfs": "In eine PDF zusammenführen",
+    "select_folder": "Ordner auswählen",
+    "folder_selected": "Ordner ausgewählt: {folder}",
+    "pdftk_installed": "pdftk ist installiert.",
+    "pdftk_not_installed": "pdftk ist nicht installiert. Möchten Sie es herunterladen?",
+    "merge_success": "PDFs zusammengeführt in: {output}",
+    "merge_error": "Fehler beim Zusammenführen der PDFs: {error}"
+}
