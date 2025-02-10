@@ -1,0 +1,19 @@
+{
+    "language": "Langue",
+    "title": "Fusionneur PDF - GUI pour pdftk",
+    "verify_pdftk": "Vérifier pdftk",
+    "add_pdfs": "Ajouter des PDFs",
+    "move_up": "Déplacer vers le haut",
+    "move_down": "Déplacer vers le bas",
+    "duplicate": "Dupliquer",
+    "remove": "Supprimer",
+    "clear_list": "Effacer la liste",
+    "output_name": "Nom de sortie :",
+    "merge_pdfs": "Fusionner en un seul PDF",
+    "select_folder": "Sélectionner un dossier",
+    "folder_selected": "Dossier sélectionné : {folder}",
+    "pdftk_installed": "pdftk est installé.",
+    "pdftk_not_installed": "pdftk n'est pas installé. Voulez-vous le télécharger ?",
+    "merge_success": "PDFs fusionnés dans : {output}",
+    "merge_error": "Erreur lors de la fusion des PDFs : {error}"
+}
