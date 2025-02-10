@@ -1,0 +1,19 @@
+{
+    "language": "语言",
+    "title": "PDF 合并器 - pdftk 图形界面",
+    "verify_pdftk": "验证 pdftk",
+    "add_pdfs": "添加 PDF",
+    "move_up": "上移",
+    "move_down": "下移",
+    "duplicate": "复制",
+    "remove": "删除",
+    "clear_list": "清除列表",
+    "output_name": "输出文件名：",
+    "merge_pdfs": "合并为一个 PDF",
+    "select_folder": "选择文件夹",
+    "folder_selected": "已选择文件夹：{folder}",
+    "pdftk_installed": "pdftk 已安装。",
+    "pdftk_not_installed": "pdftk 未安装。您要下载吗？",
+    "merge_success": "PDF 已合并到：{output}",
+    "merge_error": "合并 PDF 时出错：{error}"
+}
